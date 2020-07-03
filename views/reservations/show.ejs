@@ -10,7 +10,7 @@
 
     <div class="card-body">
       <p class="card-text">
-        Your reservation is from <strong><%= reservation.checkIn.toDatString() %></strong> to <strong><%= reservation.checkOut.toDateString() %></strong> for <%= reservation.numOfOccupants %> <%= reservation.numOfOccupants > 1 ? 'people' : 'person' %>.
+        Your reservation is from <strong><%= reservation.checkIn.toDateString() %></strong> to <strong><%= reservation.checkOut.toDateString() %></strong> for <%= reservation.numOfOccupants %> <%= reservation.numOfOccupants > 1 ? 'people' : 'person' %>.
       </p>
 
       <p>
